@@ -1,0 +1,158 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/*====== 
+logo
+======= */
+
+.col img{
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+/* ====
+playstore logo
+====*/
+.link-horizontal img{
+    border-radius: 10px;
+    margin-top: -15px;
+}
+/*===== 
+mobile icon
+=====*/
+.img-mobile{
+    margin-top: 10px;
+    bottom: 0px !important;
+}
+
+.header-image{
+    background-color: #000;
+    width: 350px;
+    border-radius: 15px;
+}
+
+/* =====
+cards
+====*/
+
+
+.img-fluid{
+    border-radius: 15px;
+}
+
+.hover-zoomin{
+    box-shadow: 0 10px 10px 0 rgba(83, 82, 82, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    border-left: 2px solid rgba(83, 82, 82, 0.2);
+    border-right: 2px solid rgba(83, 82, 82, 0.2);
+    border-top: 2px solid rgba(83, 82, 82, 0.2);
+}
+
+.img-fluid:hover{
+    box-shadow: 10px 9px 15px 20px rgba(0,0,0,0.2);
+
+}
+
+/* ======
+footer
+========*/
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #474b4e;
+    color: #ffffff;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: center;
+  }
+
+  .company_widget h3{
+      /* margin-left: 90px; */
+      padding-bottom: 10px;
+  }
+
+ .quick_links li {
+   display: flex;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.newsletter{
+    display: flex;
+    color: #ffffff;
+}
+.social_links {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  right: 30px
+  }
+
+.social_links li {
+    margin-right: 10px; }
+     .social_links li a {
+      width: 40px;
+      height: 45px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 45px;
+      color: #ffffff;
+      background: #474b4e;
+      display: block;
+      font-size: 18px; 
+    }
+       .social_links .twitter a:hover {
+        background: #6de0f0;
+        color: #ffffff;
+     }
+       .social_links .facebook a:hover {
+        background: #1494cf;
+        color: #ffffff; 
+    }
+         .pinterest a:hover {
+        background: #b91111;
+        color: #ffffff; 
+    }
+         .youtube a:hover {
+        background: #af2c2c;
+        color: #ffffff; 
+    }
+         .insta a:hover {
+          background :  #E1306C;;
+          color: #ffffff; 
+        }
+
+        .quick_links p{
+           padding-left: 10px;
+           color: #ffffff;
+        }
+
+        @media only screen and (max-width : 991px){
+            .footer{
+                display: flex !important;
+                justify-content: center !important;
+                /* padding-left: 20%; */
+            }
+        }
+
+        @media only screen and (max-width : 764px){
+            .social_links{
+                margin-left: 23%;
+            }
+        }
+
+        .footerbtn{
+            margin-left: 35%;
+        }
